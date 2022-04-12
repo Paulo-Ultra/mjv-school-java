@@ -6,6 +6,10 @@
 
 # MJV Technology & Innovation Brasil
 
+## ⚙️ Informações sobre o README:
+
+O intuito desse README é fazer dele uma espécie de guia de todos os repositórios criados em função das aulas do [MJV School] Java.
+
 ## Sobre a MJV
 
 
@@ -26,9 +30,6 @@ Fonte: https://www.mjvinnovation.com/pt-br/)
 
 LinkedIn: https://www.linkedin.com/company/mjv-tech-and-innovation/about/
 
-## ⚙️ Informações sobre o README:
-
-O intuito desse README é fazer dele uma espécie de guia de todos os repositórios criados em função das aulas do [MJV School] Java.
 
 # [MJV School] Java
 
