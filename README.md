@@ -103,6 +103,9 @@ Plano de aula, apresentações, exercícios aplicados na School de Java.
 A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual e desafios, logo essa seção sofrerá alterações continuas.
 
 - [Data 11/04/22: Aula sobre versionamento de código (GIT - GITHUB/GITLAB/BITBUCKET)](https://glysns.gitbook.io/git-e-github/)
+- [Data 12/04/22: Aula sobre versionamento de código e uso de branchs (Uso de um repositório para mais de uma pessoa)](https://github.com/FabioEriceira/mjv-group-esporte)
+- [Data 13/04/22: Encerramento das aulas de GIT e instalação da IDE e primeiro programa compilado(GIT - GITHUB/GITLAB/BITBUCKET)](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/aula-java/src)
+
 
 <p align="center">
   <a href="https://www.mjvinnovation.com/pt-br" target="_blank">
