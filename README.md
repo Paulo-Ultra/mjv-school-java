@@ -105,6 +105,7 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 - [Data 11/04/22: Aula sobre versionamento de código (GIT - GITHUB/GITLAB/BITBUCKET)](https://glysns.gitbook.io/git-e-github/)
 - [Data 12/04/22: Aula sobre versionamento de código e uso de branchs (Uso de um repositório para mais de uma pessoa)](https://github.com/FabioEriceira/mjv-group-esporte)
 - [Data 13/04/22: Encerramento das aulas de GIT e instalação da IDE e primeiro programa compilado](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/aula-java/src)
+- [Data 14/04/22: Aula variáveis, String e tipos primitivos](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/aula-java/src/aula2)
 
 
 <p align="center">
