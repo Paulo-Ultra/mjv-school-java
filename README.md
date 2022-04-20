@@ -37,7 +37,13 @@ LinkedIn: https://www.linkedin.com/company/mjv-tech-and-innovation/about/
 - [Gleyson Sampaio](https://github.com/glysns)
 - [Repositório do Professor](https://github.com/digytal-code/java-school)
 
-Roteiro das Aulas de Java
+# [MJV School] GRUPO - ESPORTE
+
+## Repositório de atividades em grupo
+- [MJV-Group-Esporte](https://github.com/FabioEriceira/mjv-group-esporte)
+
+
+# Roteiro das Aulas de Java
 
 Plano de aula, apresentações, exercícios aplicados na School de Java.
 
@@ -106,6 +112,8 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 - [Data 12/04/22: Aula sobre versionamento de código e uso de branchs (Uso de um repositório para mais de uma pessoa)](https://github.com/FabioEriceira/mjv-group-esporte)
 - [Data 13/04/22: Encerramento das aulas de GIT e instalação da IDE e primeiro programa compilado](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/aula-java/src)
 - [Data 14/04/22: Aula variáveis, String e tipos primitivos](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/aula-java/src/aula2)
+
+- [Data 18/04/22: Apresentação em grupo das Classes File, Path e Paths](https://github.com/FabioEriceira/mjv-group-esporte/tree/main/exercicios/exercicio1/src)
 
 
 <p align="center">
