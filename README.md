@@ -115,6 +115,8 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 
 - [Data 18/04/22: Apresentação em grupo das Classes File, Path e Paths](https://github.com/FabioEriceira/mjv-group-esporte/tree/main/exercicios/exercicio1/src)
 
+- [Data 18/04/22: Atributos e Construtores](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/classes-objetos/paulo/classes/objetos)
+
 
 <p align="center">
   <a href="https://www.mjvinnovation.com/pt-br" target="_blank">
