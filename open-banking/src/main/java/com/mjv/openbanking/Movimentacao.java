@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class Movimentacao {
     //classe
     private LocalDate data;
-    private BigDecimal valor;
+    private Double valor;
     private String cpfCnpj;
     private String nomeCliente;
     private Boolean estornada;
@@ -25,11 +25,11 @@ public class Movimentacao {
         this.data = data;
     }
 
-    public BigDecimal getValor() {
+    public Double getValor() {
         return valor;
     }
 
-    public void setValor(BigDecimal valor) {
+    public void setValor(Double valor) {
         this.valor = valor;
     }
 
@@ -63,5 +63,17 @@ public class Movimentacao {
 
     public void setTipo(TipoMovimentacao tipo) {
         this.tipo = tipo;
+    }
+
+    @Override
+    public String toString() {
+        return "Movimentacao{" +
+                "data=" + data +
+                ", valor=" + valor +
+                ", cpfCnpj='" + cpfCnpj + '\'' +
+                ", nomeCliente='" + nomeCliente + '\'' +
+                ", estornada=" + estornada +
+                ", tipo=" + tipo +
+                '}';
     }
 }
