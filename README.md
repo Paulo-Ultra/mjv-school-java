@@ -119,6 +119,10 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 
 - [Data 19/04/22: Criação do Open-Banking](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/open-banking)
 
+- [Data 20/04/22: Finalização do Open-Banking seguindo os requisitos](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/open-banking)
+
+- [Data 22/04/22: Água / Luz Notification Case 1](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/Agua.Luz%20-%20Notification%20-%20Case%201)
+
 
 <p align="center">
   <a href="https://www.mjvinnovation.com/pt-br" target="_blank">
