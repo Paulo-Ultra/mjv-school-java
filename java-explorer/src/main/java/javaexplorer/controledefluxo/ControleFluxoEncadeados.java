@@ -2,7 +2,7 @@ package javaexplorer.controledefluxo;
 
 public class ControleFluxoEncadeados {
             public static void main(String[] args) {
-                
+
             ControleFluxoEncadeados.simuladorMulta(45);
         }
 
