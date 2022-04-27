@@ -7,7 +7,7 @@
     <groupId>com.mjv</groupId>
     <artifactId>Agua.Luz - Notification - Case 1</artifactId>
     <version>1.0</version>
-    <name>Água / Luz - Notifcation - Case 1</name>
+    <name>Água / Luz - Notification - Case 1</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

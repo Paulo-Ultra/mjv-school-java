@@ -47,5 +47,8 @@ public class Aplicacao {
         GeradorArquivo ga = new GeradorArquivo();
         ga.arquivoTxt(conteudoGeradoCliente, conteudoGeradoNotificacao);
 
+        GeradorArquivo ga2 = new GeradorArquivo();
+        ga2.arquivoCsv(conteudoGeradoCliente, conteudoGeradoNotificacao);
+
     }
 }
