@@ -1,4 +1,6 @@
-package com.mjv;
+package com.mjv.model;
+
+import com.mjv.enums.Pais;
 
 public class Cliente {
 

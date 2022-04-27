@@ -1,11 +1,15 @@
 package com.mjv;
 
-import java.text.SimpleDateFormat;
+import com.mjv.model.Cliente;
+import com.mjv.model.Notificacao;
+import com.mjv.util.GeradorArquivo;
+import com.mjv.util.GeradorConteudo;
+import com.mjv.enums.Pais;
+import com.mjv.enums.TipoNotificacao;
+import com.mjv.enums.TipoServico;
+
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-import java.sql.Date;
 
 public class Aplicacao {
     public static void main(String[] args) {
@@ -28,15 +32,9 @@ public class Aplicacao {
         cliente.setPais(Pais.BRASIL);
 
 
-        LocalDate data = LocalDate.of(2022, 05, 07);
-        Date date = Date.valueOf(data);
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-        String dataFormatada =  formatter.format(date);
-        LocalTime hora = LocalTime.of(15,21);
-        String horaFormatada = String.valueOf(hora);
         notificacao.setProtocolo(1984365l);
-//        notificacao.setData(LocalDate.parse(dataFormatada));
-//        notificacao.setHora(LocalTime.parse(horaFormatada));
+        notificacao.setData(LocalDate.of(2022, 05, 07));
+        notificacao.setHora(LocalTime.of(15, 21));
         notificacao.setTipoServico(TipoServico.AGUA);
         notificacao.setValor(127.35);
         notificacao.setTipoNotificacao(TipoNotificacao.SMS);
@@ -46,8 +44,8 @@ public class Aplicacao {
         String conteudoGeradoCliente = gc.gerarDadosCliente(cliente);
         String conteudoGeradoNotificacao = gc.gerarDadosNotificacao(notificacao);
 
-        System.out.println(conteudoGeradoCliente);
-        System.out.println(conteudoGeradoNotificacao);
+        GeradorArquivo ga = new GeradorArquivo();
+        ga.arquivoTxt(conteudoGeradoCliente, conteudoGeradoNotificacao);
 
     }
 }

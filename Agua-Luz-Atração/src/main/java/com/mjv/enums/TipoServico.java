@@ -1,4 +1,4 @@
-package com.mjv;
+package com.mjv.enums;
 
 public enum TipoServico {
     AGUA ("A"),

@@ -1,5 +1,10 @@
-package com.mjv;
+package com.mjv.util;
 
+import com.mjv.model.Cliente;
+import com.mjv.model.Notificacao;
+
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
 import java.util.Locale;
 
 public class GeradorConteudo {
@@ -69,6 +74,7 @@ public class GeradorConteudo {
 
         sb.append(cliente.getPais().getSiglaPais());
 
+
         return sb.toString();
     }
 
@@ -77,16 +83,20 @@ public class GeradorConteudo {
         StringBuilder sb = new StringBuilder();
 
         sb.append(String.format("%010d", notificacao.getProtocolo()));
+        DateTimeFormatterBuilder dtfb = new DateTimeFormatterBuilder();
 
-//        sb.append(String.format("%8d", String.valueOf(notificacao.getData())));
+        dtfb.append(DateTimeFormatter.ofPattern(String.format("%8s", String.valueOf(notificacao.getData()))));
 
-//        sb.append(String.format("%011d", String.valueOf(notificacao.getHora().("\\D", ""))) );
+        sb.append(String.format("%8s", String.valueOf(notificacao.getData().toString().replace("-", ""))));
+
+        sb.append(String.format("%4s", String.valueOf(notificacao.getHora().toString().replace(":", ""))));
 
         sb.append(notificacao.getTipoServico().getSiglaTipoServico());
 
-        sb.append(String.format("%08f", notificacao.getValor()));
+        sb.append(notificacao.getValor().toString().replace(".", ""));
 
         sb.append(notificacao.getTipoNotificacao().getSiglaTipoNotificacao());
+
 
         return sb.toString();
     }

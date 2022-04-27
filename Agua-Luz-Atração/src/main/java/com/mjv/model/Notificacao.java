@@ -1,4 +1,7 @@
-package com.mjv;
+package com.mjv.model;
+
+import com.mjv.enums.TipoNotificacao;
+import com.mjv.enums.TipoServico;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
