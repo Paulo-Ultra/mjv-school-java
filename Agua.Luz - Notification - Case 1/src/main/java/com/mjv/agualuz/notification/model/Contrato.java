@@ -1,4 +1,6 @@
-package com.mjv;
+package com.mjv.agualuz.notification.model;
+
+import com.mjv.agualuz.notification.enums.TipoServico;
 
 import java.time.LocalDateTime;
 

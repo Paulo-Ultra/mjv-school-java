@@ -1,4 +1,4 @@
-package com.mjv;
+package com.mjv.agualuz.notification.model;
 
 public class Cliente {
     private String nome;
