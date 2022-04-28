@@ -1,4 +1,6 @@
-package com.mjv.util;
+package com.mjv.service;
+
+import com.mjv.model.Contrato;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,9 +8,10 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class GeradorArquivo {
-    public static void arquivoTxt (String conteudoGeradoCliente, String conteudoGeradoNotificacao){
+    public static void arquivoTxt (List<Contrato> contratos){
     String nomeArquivo = "agua-luz-contratos.txt";
     try {
         File diretorio = new File("C:\\Users\\55619\\OneDrive\\Documentos\\MJV School - Java\\Agua-Luz-Atração\\agua-luz-output");
@@ -23,7 +26,12 @@ public class GeradorArquivo {
         e.printStackTrace();
     }
     }
-    public static void arquivoCsv (String conteudoGeradoCliente, String conteudoGeradoNotificacao){
+    public static void arquivoCsv (List<Contrato> contratos){
+        StringBuilder sb = new StringBuilder();
+        for(Contrato c : contratos){
+            sb.append(c.getCliente)
+        }
+
         String nomeArquivo = "agua-luz-contratos.csv";
         try {
             File diretorio = new File("C:\\Users\\55619\\OneDrive\\Documentos\\MJV School - Java\\Agua-Luz-Atração\\agua-luz-output");

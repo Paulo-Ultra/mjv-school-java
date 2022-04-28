@@ -1,14 +1,14 @@
 package com.mjv.util;
 
-import com.mjv.model.Cliente;
-import com.mjv.model.Notificacao;
+import com.mjv.model.Cadastro;
+import com.mjv.model.Contrato;
 
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.util.Locale;
 
 public class GeradorConteudo {
-    public String gerarDadosCliente (Cliente cliente){
+    public String gerarDadosCliente (Cadastro cliente){
 
         StringBuilder sb = new StringBuilder();
 
@@ -78,7 +78,7 @@ public class GeradorConteudo {
         return sb.toString();
     }
 
-    public String gerarDadosNotificacao (Notificacao notificacao){
+    public String gerarDadosNotificacao (Contrato notificacao){
 
         StringBuilder sb = new StringBuilder();
 

@@ -1,31 +1,12 @@
 package com.mjv.agualuz.notification.model;
 
-public class Cliente {
-    private String nome;
-    private String cpfCnpj;
+public class Endereco {
     private String logradouro;
+    private String numero;
     private String complemento;
     private String bairro;
     private String cidade;
     private String cep;
-    private Contrato contrato;
-
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCpfCnpj() {
-        return cpfCnpj;
-    }
-
-    public void setCpfCnpj(String cpfCnpj) {
-        this.cpfCnpj = cpfCnpj;
-    }
 
     public String getLogradouro() {
         return logradouro;
@@ -33,6 +14,14 @@ public class Cliente {
 
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
     public String getComplemento() {
@@ -67,25 +56,15 @@ public class Cliente {
         this.cep = cep;
     }
 
-    public Contrato getContrato() {
-        return contrato;
-    }
-
-    public void setContrato(Contrato contrato) {
-        this.contrato = contrato;
-    }
-
     @Override
     public String toString() {
-        return "Cliente{" +
-                "nome='" + nome + '\'' +
-                ", cpfCnpj='" + cpfCnpj + '\'' +
-                ", logradouro='" + logradouro + '\'' +
+        return "Endereco{" +
+                "logradouro='" + logradouro + '\'' +
+                ", numero='" + numero + '\'' +
                 ", complemento='" + complemento + '\'' +
                 ", bairro='" + bairro + '\'' +
                 ", cidade='" + cidade + '\'' +
                 ", cep='" + cep + '\'' +
-                ", contrato=" + contrato +
                 '}';
     }
 }

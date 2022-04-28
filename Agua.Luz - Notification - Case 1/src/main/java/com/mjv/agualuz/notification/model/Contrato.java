@@ -5,10 +5,19 @@ import com.mjv.agualuz.notification.enums.TipoServico;
 import java.time.LocalDateTime;
 
 public class Contrato {
+    private Cadastro cliente;
     private Long protocolo;
     private LocalDateTime dataHora;
     private Double taxa;
     private TipoServico tipoServico;
+
+    public Cadastro getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cadastro cliente) {
+        this.cliente = cliente;
+    }
 
     public Long getProtocolo() {
         return protocolo;
@@ -45,7 +54,8 @@ public class Contrato {
     @Override
     public String toString() {
         return "Contrato{" +
-                "protocolo=" + protocolo +
+                "cliente=" + cliente +
+                ", protocolo=" + protocolo +
                 ", dataHora=" + dataHora +
                 ", taxa=" + taxa +
                 ", tipoServico=" + tipoServico +

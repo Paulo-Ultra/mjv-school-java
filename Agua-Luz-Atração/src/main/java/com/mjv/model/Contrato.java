@@ -1,12 +1,13 @@
 package com.mjv.model;
 
+import com.mjv.enums.Servico;
 import com.mjv.enums.TipoNotificacao;
 import com.mjv.enums.TipoServico;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Notificacao {
+public class Contrato {
 
     private Long protocolo;
     private LocalDate data;
@@ -14,6 +15,7 @@ public class Notificacao {
     private TipoServico tipoServico;
     private Double valor;
     private TipoNotificacao tipoNotificacao;
+    private Servico servico;
 
     public Long getProtocolo() {
         return protocolo;
@@ -63,15 +65,24 @@ public class Notificacao {
         this.tipoNotificacao = tipoNotificacao;
     }
 
+    public Servico getServico() {
+        return servico;
+    }
+
+    public void setServico(Servico servico) {
+        this.servico = servico;
+    }
+
     @Override
     public String toString() {
-        return "Notificacao{" +
-                "protocolo='" + protocolo + '\'' +
+        return "Contrato{" +
+                "protocolo=" + protocolo +
                 ", data=" + data +
                 ", hora=" + hora +
                 ", tipoServico=" + tipoServico +
                 ", valor=" + valor +
                 ", tipoNotificacao=" + tipoNotificacao +
+                ", servico=" + servico +
                 '}';
     }
 }

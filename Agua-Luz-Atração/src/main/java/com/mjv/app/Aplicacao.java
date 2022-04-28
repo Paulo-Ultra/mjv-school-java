@@ -1,8 +1,9 @@
-package com.mjv;
+package com.mjv.app;
 
-import com.mjv.model.Cliente;
-import com.mjv.model.Notificacao;
-import com.mjv.util.GeradorArquivo;
+import com.mjv.model.Cadastro;
+import com.mjv.model.Contrato;
+import com.mjv.repository.ContratoRepository;
+import com.mjv.service.GeradorArquivo;
 import com.mjv.util.GeradorConteudo;
 import com.mjv.enums.Pais;
 import com.mjv.enums.TipoNotificacao;
@@ -10,12 +11,13 @@ import com.mjv.enums.TipoServico;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
 
 public class Aplicacao {
     public static void main(String[] args) {
 
-        Cliente cliente = new Cliente();
-        Notificacao notificacao = new Notificacao();
+        Cadastro cliente = new Cadastro();
+        Contrato notificacao = new Contrato();
 
 
         cliente.setCpf("007.324.223-21");
@@ -44,11 +46,11 @@ public class Aplicacao {
         String conteudoGeradoCliente = gc.gerarDadosCliente(cliente);
         String conteudoGeradoNotificacao = gc.gerarDadosNotificacao(notificacao);
 
+        ContratoRepository rep = new ContratoRepository();
+        List<Contrato> contratos = rep.listar();
         GeradorArquivo ga = new GeradorArquivo();
-        ga.arquivoTxt(conteudoGeradoCliente, conteudoGeradoNotificacao);
+        ga.csv(contratos);
 
-        GeradorArquivo ga2 = new GeradorArquivo();
-        ga2.arquivoCsv(conteudoGeradoCliente, conteudoGeradoNotificacao);
 
     }
 }
