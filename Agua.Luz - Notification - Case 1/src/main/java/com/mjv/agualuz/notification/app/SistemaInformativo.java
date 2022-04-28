@@ -7,11 +7,9 @@ import com.mjv.agualuz.notification.model.Endereco;
 import com.mjv.agualuz.notification.service.GeradorMensagem;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class SistemaInformativo {
     public static void main(String[] args) {
-
         Contrato contr1 = new Contrato();
         Cadastro gleyson = new Cadastro();
         Endereco end = new Endereco();
@@ -48,3 +46,4 @@ public class SistemaInformativo {
 //        System.out.println("Cep: " + end.getCep());
     }
 }
+

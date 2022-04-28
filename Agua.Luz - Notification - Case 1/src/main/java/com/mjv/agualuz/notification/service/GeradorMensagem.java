@@ -24,7 +24,7 @@ public class GeradorMensagem {
                         "    Cidade: %s\n" +
                         "    Cep: %s\n",
                 contrato.getProtocolo(), formatarData, contrato.getTipoServico().getSiglaTipoServico(), contrato.getTaxa(),
-                endereco.getLogradouro(), endereco.getNumero(), endereco.getBairro(), endereco.getCidade(), endereco.getCep()));
+                endereco.getLogradouro(), endereco.getNumero(), endereco.getComplemento(), endereco.getBairro(), endereco.getCidade(), endereco.getCep()));
         System.out.println(sb.toString());
     }
 }
