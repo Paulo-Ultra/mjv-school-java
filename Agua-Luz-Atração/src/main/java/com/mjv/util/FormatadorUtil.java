@@ -1,6 +1,9 @@
 package com.mjv.util;
 
 import java.text.Normalizer;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
 public class FormatadorUtil {
     public static String formatarCpf(String cpf) {
@@ -14,6 +17,18 @@ public class FormatadorUtil {
     public static String removerAcentos(String palavra) {
         return Normalizer.normalize(palavra, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
     }
+    public static String formatarData(LocalDate data) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        String dataFormatada = data.format(formatter);
+
+        return dataFormatada;
+    }
+    public static String formatarHora(LocalTime hora) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        String horaFormatada = hora.format(formatter);
+
+        return horaFormatada;
+    }
 
 }
-}
+

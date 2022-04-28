@@ -13,7 +13,7 @@ public class Contrato {
     private LocalDate data;
     private LocalTime hora;
     private TipoServico tipoServico;
-    private Double valor;
+//    private Double valor; - Não sei se há necessidade de haver o valor sendo que já tem valores fixos
     private Cadastro cliente;
     private TipoNotificacao tipoNotificacao;
     private Servico servico;
@@ -50,13 +50,13 @@ public class Contrato {
         this.tipoServico = tipoServico;
     }
 
-    public Double getValor() {
-        return valor;
-    }
-
-    public void setValor(Double valor) {
-        this.valor = valor;
-    }
+//    public Double getValor() {
+//        return valor;
+//    }
+//
+//    public void setValor(Double valor) {
+//        this.valor = valor;
+//    }
 
     public Cadastro getCliente() {
         return cliente;
@@ -88,8 +88,8 @@ public class Contrato {
                 "protocolo=" + protocolo +
                 ", data=" + data +
                 ", hora=" + hora +
-                ", tipoServico=" + tipoServico +
-                ", valor=" + valor +
+                ", tipoServico=" + tipoServico /*+
+                ", valor=" + valor*/ +
                 ", cliente=" + cliente +
                 ", tipoNotificacao=" + tipoNotificacao +
                 ", servico=" + servico +

@@ -2,6 +2,7 @@ package com.mjv.util;
 
 import com.mjv.model.Cadastro;
 import com.mjv.model.Contrato;
+import com.mjv.model.Endereco;
 
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
@@ -10,6 +11,7 @@ import java.util.Locale;
 public class GeradorConteudo {
     public String gerarDadosCliente (Cadastro cliente){
 
+        Endereco endereco = cliente.getEndereco();
         StringBuilder sb = new StringBuilder();
 
         sb.append(String.format("%011d", Long.valueOf(cliente.getCpf().replaceAll("\\D", ""))) );
@@ -21,7 +23,7 @@ public class GeradorConteudo {
         } else {
             sb.append(String.format("%-10s", rg));
         }
-//        sb.append(String.format("%010d", Long.valueOf(cliente.getRg().replaceAll("\\D", ""))) );
+        sb.append(String.format("%010d", Long.valueOf(cliente.getRg().replaceAll("\\D", ""))) );
 
 
         String nome = cliente.getNome().toUpperCase(Locale.ROOT);
@@ -34,7 +36,7 @@ public class GeradorConteudo {
 
         sb.append(String.format("%11d", Long.valueOf(cliente.getCelular().replaceAll("\\D", ""))));
 
-        String logradouro = cliente.getLogradouro().toUpperCase(Locale.ROOT);
+        String logradouro = endereco.getLogradouro().toUpperCase(Locale.ROOT);
 
         if(logradouro.length() >= 20){
             sb.append(logradouro.substring(0,20));
@@ -42,9 +44,9 @@ public class GeradorConteudo {
             sb.append(String.format("%-20s", logradouro));
         }
 
-        sb.append(String.format("%06d", cliente.getNumero()));
+        sb.append(String.format("%06d", endereco.getNumero()));
 
-        String complemento = cliente.getComplemento().toUpperCase(Locale.ROOT);
+        String complemento = endereco.getComplemento().toUpperCase(Locale.ROOT);
 
         if(complemento.length() >= 10){
             sb.append(complemento.substring(0, 10));
@@ -52,7 +54,7 @@ public class GeradorConteudo {
             sb.append(String.format("%-10s", complemento));
         }
 
-        String bairro = cliente.getBairro().toUpperCase(Locale.ROOT);
+        String bairro = endereco.getBairro().toUpperCase(Locale.ROOT);
 
         if(bairro.length() >= 15){
             sb.append(bairro.substring(0, 15));
@@ -60,7 +62,7 @@ public class GeradorConteudo {
             sb.append(String.format("%-15s", bairro));
         }
 
-        String cidade = cliente.getCidade().toUpperCase(Locale.ROOT);
+        String cidade = endereco.getCidade().toUpperCase(Locale.ROOT);
 
         if(cidade.length() >= 30){
             sb.append(cidade.substring(0, 30));
@@ -68,11 +70,11 @@ public class GeradorConteudo {
             sb.append(String.format("%-30s", cidade));
         }
 
-        sb.append(String.format("%-2s", cliente.getUf().toUpperCase(Locale.ROOT)));
+        sb.append(String.format("%-2s", endereco.getEstado().toUpperCase(Locale.ROOT)));
 
-        sb.append(String.format("%08d", Long.valueOf(cliente.getCep().replaceAll("\\D", ""))));
+        sb.append(String.format("%08d", Long.valueOf(endereco.getCep().replaceAll("\\D", ""))));
 
-        sb.append(cliente.getPais().getSiglaPais());
+        sb.append(endereco.getPais().getSiglaPais());
 
 
         return sb.toString();
@@ -93,7 +95,7 @@ public class GeradorConteudo {
 
         sb.append(notificacao.getTipoServico().getSiglaTipoServico());
 
-        sb.append(notificacao.getValor().toString().replace(".", ""));
+//        sb.append(notificacao.getValor().toString().replace(".", ""));
 
         sb.append(notificacao.getTipoNotificacao().getSiglaTipoNotificacao());
 

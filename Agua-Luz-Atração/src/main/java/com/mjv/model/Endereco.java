@@ -10,8 +10,7 @@ public class Endereco {
     private String cidade;
     private String estado;
     private String cep;
-
-
+    private Pais pais;
 
     public String getLogradouro() {
         return logradouro;
@@ -69,6 +68,14 @@ public class Endereco {
         this.cep = cep;
     }
 
+    public Pais getPais() {
+        return pais;
+    }
+
+    public void setPais(Pais pais) {
+        this.pais = pais;
+    }
+
     @Override
     public String toString() {
         return "Endereco{" +
@@ -79,6 +86,7 @@ public class Endereco {
                 ", cidade='" + cidade + '\'' +
                 ", estado='" + estado + '\'' +
                 ", cep='" + cep + '\'' +
+                ", pais=" + pais +
                 '}';
     }
 }

@@ -8,7 +8,8 @@ public class Cadastro {
     private String rg;
     private String nome;
     private String celular;
-    private Pais pais;
+    private Contrato contrato;
+    private Endereco endereco;
 
     public String getCpf() {
         return cpf;
@@ -42,12 +43,20 @@ public class Cadastro {
         this.celular = celular;
     }
 
-    public Pais getPais() {
-        return pais;
+    public Contrato getContrato() {
+        return contrato;
     }
 
-    public void setPais(Pais pais) {
-        this.pais = pais;
+    public void setContrato(Contrato contrato) {
+        this.contrato = contrato;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 
     @Override
@@ -57,7 +66,8 @@ public class Cadastro {
                 ", rg='" + rg + '\'' +
                 ", nome='" + nome + '\'' +
                 ", celular='" + celular + '\'' +
-                ", pais=" + pais +
+                ", contrato=" + contrato +
+                ", endereco=" + endereco +
                 '}';
     }
 }
