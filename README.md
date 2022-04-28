@@ -35,7 +35,7 @@ LinkedIn: https://www.linkedin.com/company/mjv-tech-and-innovation/about/
 
 ## Professor
 - [Gleyson Sampaio](https://github.com/glysns)
-- [Repositório do Professor](https://github.com/digytal-code/java-school)
+- [Repositório do Professor](https://github.com/glysns/mjv-java-school)
 
 # [MJV School] GRUPO - ESPORTE
 
