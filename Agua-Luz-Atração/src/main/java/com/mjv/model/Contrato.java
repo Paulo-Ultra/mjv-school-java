@@ -14,6 +14,7 @@ public class Contrato {
     private LocalTime hora;
     private TipoServico tipoServico;
     private Double valor;
+    private Cadastro cliente;
     private TipoNotificacao tipoNotificacao;
     private Servico servico;
 
@@ -57,6 +58,14 @@ public class Contrato {
         this.valor = valor;
     }
 
+    public Cadastro getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cadastro cliente) {
+        this.cliente = cliente;
+    }
+
     public TipoNotificacao getTipoNotificacao() {
         return tipoNotificacao;
     }
@@ -81,6 +90,7 @@ public class Contrato {
                 ", hora=" + hora +
                 ", tipoServico=" + tipoServico +
                 ", valor=" + valor +
+                ", cliente=" + cliente +
                 ", tipoNotificacao=" + tipoNotificacao +
                 ", servico=" + servico +
                 '}';

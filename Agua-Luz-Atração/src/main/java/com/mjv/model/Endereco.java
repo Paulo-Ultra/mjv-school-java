@@ -8,8 +8,10 @@ public class Endereco {
     private String complemento;
     private String bairro;
     private String cidade;
+    private String estado;
     private String cep;
-    private Pais pais;
+
+
 
     public String getLogradouro() {
         return logradouro;
@@ -51,20 +53,20 @@ public class Endereco {
         this.cidade = cidade;
     }
 
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
     public String getCep() {
         return cep;
     }
 
     public void setCep(String cep) {
         this.cep = cep;
-    }
-
-    public Pais getPais() {
-        return pais;
-    }
-
-    public void setPais(Pais pais) {
-        this.pais = pais;
     }
 
     @Override
@@ -75,8 +77,8 @@ public class Endereco {
                 ", complemento='" + complemento + '\'' +
                 ", bairro='" + bairro + '\'' +
                 ", cidade='" + cidade + '\'' +
+                ", estado='" + estado + '\'' +
                 ", cep='" + cep + '\'' +
-                ", pais=" + pais +
                 '}';
     }
 }

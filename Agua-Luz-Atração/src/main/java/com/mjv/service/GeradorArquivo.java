@@ -1,5 +1,6 @@
 package com.mjv.service;
 
+import com.mjv.model.Cadastro;
 import com.mjv.model.Contrato;
 
 import java.io.File;
@@ -11,39 +12,45 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class GeradorArquivo {
-    public static void arquivoTxt (List<Contrato> contratos){
-    String nomeArquivo = "agua-luz-contratos.txt";
-    try {
-        File diretorio = new File("C:\\Users\\55619\\OneDrive\\Documentos\\MJV School - Java\\Agua-Luz-Atração\\agua-luz-output");
-        if(!diretorio.exists())
-            diretorio.mkdirs();
-
-        Path path = Paths.get(diretorio.getAbsolutePath(), nomeArquivo);
-
-        Files.write(path, conteudoGeradoCliente.getBytes(StandardCharsets.UTF_8));
-        Files.write(path, conteudoGeradoNotificacao.getBytes(StandardCharsets.UTF_8));
-    } catch(IOException e) {
-        e.printStackTrace();
-    }
-    }
-    public static void arquivoCsv (List<Contrato> contratos){
+    public void csv(List<Contrato> contratos) {
         StringBuilder sb = new StringBuilder();
-        for(Contrato c : contratos){
-            sb.append(c.getCliente)
+
+        for(Contrato c : contratos) {
+            Cadastro cad = c.getCliente();
+            sb.append(cad.getCpf() + ";");
+            sb.append(cad.getRg() + ";");
+            sb.append(cad.getNome() + ";");
         }
+        System.out.println(sb.toString());
 
-        String nomeArquivo = "agua-luz-contratos.csv";
+        escrever(sb.toString(), "agua-luz-contratos.csv");
+
+    }
+
+    public void txt(List<Contrato> contratos) {
+        StringBuilder sb = new StringBuilder();
+
+        for(Contrato c : contratos) {
+            Cadastro cad = c.getCliente();
+            sb.append(cad.getCpf());//remover os caracteres especiais
+            sb.append(cad.getRg());// incluir espaços em branco ate 10 e alinhar a equerda
+            sb.append(cad.getNome());//cortar o nome para no máximo 30c e colocar maiusculo.
+        }
+        System.out.println(sb.toString());
+        escrever(sb.toString(), "agua-luz-contratos.txt");
+
+    }
+    private void escrever(String conteudo, String nomeArquivo) {
+        File dir = new File("/estudo/mjv-java-school/agua-luz-output");
+        dir.mkdirs();
+
+        Path path = Paths.get(dir.getAbsolutePath(), nomeArquivo);
+
         try {
-            File diretorio = new File("C:\\Users\\55619\\OneDrive\\Documentos\\MJV School - Java\\Agua-Luz-Atração\\agua-luz-output");
-            if(!diretorio.exists())
-                diretorio.mkdirs();
-
-            Path path = Paths.get(diretorio.getAbsolutePath(), nomeArquivo);
-
-            Files.write(path, conteudoGeradoCliente.getBytes(StandardCharsets.UTF_8));
-            Files.write(path, conteudoGeradoNotificacao.getBytes(StandardCharsets.UTF_8));
-        } catch(IOException e) {
+            Files.write(path, conteudo.getBytes(StandardCharsets.UTF_8));
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
 }
