@@ -4,17 +4,13 @@ import com.mjv.enums.Servico;
 import com.mjv.model.Cadastro;
 import com.mjv.model.Contrato;
 import com.mjv.model.Endereco;
-import com.mjv.repository.ContratoRepository;
-import com.mjv.service.GeradorArquivo;
-import com.mjv.service.GeradorMensagem;
-import com.mjv.util.GeradorConteudo;
+import com.mjv.util.GeradorLayout;
 import com.mjv.enums.Pais;
 import com.mjv.enums.TipoNotificacao;
 import com.mjv.enums.TipoServico;
-
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.List;
+
 
 public class Aplicacao {
     public static void main(String[] args) {
@@ -23,12 +19,12 @@ public class Aplicacao {
         Contrato notificacao = new Contrato();
         Endereco endereco = new Endereco();
 
-
+        cliente.setEndereco(endereco);
+        cliente.setContrato(notificacao);
         cliente.setCpf("007.324.223-21");
         cliente.setRg("33765-5");
         cliente.setNome("Raimundo Nonato Loureiro Castelo Branco");
         cliente.setCelular("(11)99768-1515");
-
 
         endereco.setLogradouro("Rua Sebastião Firmino");
         endereco.setNumero("123");
@@ -48,11 +44,16 @@ public class Aplicacao {
 //        notificacao.setValor(127.35);
         notificacao.setTipoNotificacao(TipoNotificacao.SMS);
 
-        GeradorMensagem gm = new GeradorMensagem();
-        gm.gerar(notificacao);
+        GeradorLayout gc = new GeradorLayout();
+        gc.gerarDados(cliente);
 
 
-//        GeradorConteudo gc = new GeradorConteudo();
+
+//        GeradorMensagem gm = new GeradorMensagem();
+//        gm.gerar(notificacao);
+
+
+//        GeradorLayout gc = new GeradorLayout();
 //        String conteudoGeradoCliente = gc.gerarDadosCliente(cliente);
 //        String conteudoGeradoNotificacao = gc.gerarDadosNotificacao(notificacao);
 //

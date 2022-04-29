@@ -17,6 +17,7 @@ public class Contrato {
     private Cadastro cliente;
     private TipoNotificacao tipoNotificacao;
     private Servico servico;
+    private Endereco endereco;
 
     public Long getProtocolo() {
         return protocolo;
@@ -82,17 +83,25 @@ public class Contrato {
         this.servico = servico;
     }
 
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
     @Override
     public String toString() {
         return "Contrato{" +
                 "protocolo=" + protocolo +
                 ", data=" + data +
                 ", hora=" + hora +
-                ", tipoServico=" + tipoServico /*+
-                ", valor=" + valor*/ +
+                ", tipoServico=" + tipoServico +
                 ", cliente=" + cliente +
                 ", tipoNotificacao=" + tipoNotificacao +
                 ", servico=" + servico +
+                ", endereco=" + endereco +
                 '}';
     }
 }

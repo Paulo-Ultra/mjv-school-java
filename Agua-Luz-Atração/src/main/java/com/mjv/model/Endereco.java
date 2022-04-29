@@ -11,6 +11,7 @@ public class Endereco {
     private String estado;
     private String cep;
     private Pais pais;
+    private Cadastro cadastro;
 
     public String getLogradouro() {
         return logradouro;
@@ -76,6 +77,14 @@ public class Endereco {
         this.pais = pais;
     }
 
+    public Cadastro getCadastro() {
+        return cadastro;
+    }
+
+    public void setCadastro(Cadastro cadastro) {
+        this.cadastro = cadastro;
+    }
+
     @Override
     public String toString() {
         return "Endereco{" +
@@ -87,6 +96,7 @@ public class Endereco {
                 ", estado='" + estado + '\'' +
                 ", cep='" + cep + '\'' +
                 ", pais=" + pais +
+                ", cadastro=" + cadastro +
                 '}';
     }
 }

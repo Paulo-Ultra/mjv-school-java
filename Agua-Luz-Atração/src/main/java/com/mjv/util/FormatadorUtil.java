@@ -24,7 +24,7 @@ public class FormatadorUtil {
         return dataFormatada;
     }
     public static String formatarHora(LocalTime hora) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
         String horaFormatada = hora.format(formatter);
 
         return horaFormatada;
