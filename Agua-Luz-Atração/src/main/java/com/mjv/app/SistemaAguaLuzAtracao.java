@@ -4,15 +4,18 @@ import com.mjv.enums.Servico;
 import com.mjv.model.Cadastro;
 import com.mjv.model.Contrato;
 import com.mjv.model.Endereco;
+import com.mjv.repository.ContratoRepository;
+import com.mjv.service.GeradorArquivo;
 import com.mjv.util.GeradorLayout;
 import com.mjv.enums.Pais;
 import com.mjv.enums.TipoNotificacao;
 import com.mjv.enums.TipoServico;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
 
 
-public class Aplicacao {
+public class SistemaAguaLuzAtracao {
     public static void main(String[] args) {
 
         Cadastro cliente = new Cadastro();
@@ -57,10 +60,13 @@ public class Aplicacao {
 //        String conteudoGeradoCliente = gc.gerarDadosCliente(cliente);
 //        String conteudoGeradoNotificacao = gc.gerarDadosNotificacao(notificacao);
 //
-//        ContratoRepository rep = new ContratoRepository();
-//        List<Contrato> contratos = rep.listar();
-//        GeradorArquivo ga = new GeradorArquivo();
-//        ga.csv(contratos);
+        ContratoRepository rep = new ContratoRepository();
+        List<Contrato> contratos = rep.listar();
+
+
+        GeradorArquivo ga = new GeradorArquivo();
+        ga.csv(contratos);
+        ga.txt(contratos);
 
 
     }
