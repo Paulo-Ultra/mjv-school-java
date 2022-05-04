@@ -19,9 +19,30 @@ public class GeradorArquivo {
 
         for (Contrato c : contratos) {
             Cadastro cad = c.getCliente();
+            Endereco endereco = cad.getEndereco();
             sb.append(cad.getCpf().replaceAll("\\D", "")).append(";");
             sb.append(cad.getRg()).append(";");
             sb.append(cad.getNome()).append(";");
+            sb.append(cad.getCelular()).append(";");
+            sb.append(endereco.getLogradouro()).append(";");
+            sb.append(endereco.getNumero()).append(";");
+            sb.append(endereco.getComplemento()).append(";");
+            sb.append(endereco.getBairro()).append(";");
+            sb.append(endereco.getCidade()).append(";");
+            sb.append(endereco.getEstado()).append(";");
+            sb.append(endereco.getCep()).append(";");
+            sb.append(endereco.getPais().getSiglaPais()).append(";");
+            String protocolo = TextoUtil.completarZeroEsquerda(c.getProtocolo(), 10);
+            sb.append(protocolo).append(";");
+            sb.append(c.getData().toString()).append(";");
+            sb.append(c.getHora().toString()).append(";");
+            sb.append(c.getTipoServico().getSigla()).append(";");
+//            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
+//            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
+//            sb.append(valor);
+
+            sb.append(c.getTipoNotificacao().getSiglaTipoNotificacao()).append(";");
+
         }
         System.out.println(sb.toString());
 
