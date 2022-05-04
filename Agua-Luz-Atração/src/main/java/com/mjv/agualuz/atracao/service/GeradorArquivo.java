@@ -57,9 +57,9 @@ public class GeradorArquivo {
             sb.append(TextoUtil.removerCaracteresEspeciais(c.getData().toString()));
             sb.append(TextoUtil.removerCaracteresEspeciais(c.getHora().toString()));
             sb.append(c.getTipoServico().getSigla());
-            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
-            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
-            sb.append(valor);
+//            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
+//            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
+//            sb.append(valor);
 
             sb.append(c.getTipoNotificacao().getSiglaTipoNotificacao());
 
