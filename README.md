@@ -123,6 +123,8 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 
 - [Data 22/04/22: Água / Luz Notification Case 1](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/Agua.Luz%20-%20Notification%20-%20Case%201)
 
+- [Data 25/04/22: Java Explorer(Repositório de Uso e Testes de Métodos)](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/java-explorer/src)
+
 - [Data 26/04/22: Água / Luz - Atração Notification Case 2](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/Agua-Luz-Atra%C3%A7%C3%A3o)
 
 - [Data 03/05/22: JUnit tests e Collections(List e Set)](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/java-explorer)
