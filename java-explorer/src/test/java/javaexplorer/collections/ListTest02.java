@@ -21,7 +21,7 @@ public class ListTest02 {
 //        System.out.println(nomes.remove("Paulo"));//A remoção se dá por conta do Equals
 
         nomes.addAll(nomes2);
-        
+
         for(Object nome : nomes) {
             System.out.println(nome);
         }
