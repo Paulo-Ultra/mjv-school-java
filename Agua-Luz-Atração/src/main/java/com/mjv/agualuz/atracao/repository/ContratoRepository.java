@@ -24,9 +24,10 @@ public class ContratoRepository {
             contrato.setData(LocalDate.of(2022, 2, 21));
             contrato.setHora(LocalTime.of(15,21));
             contrato.setProtocolo(2022025687L);
+            contrato.setValor(127.35);
 
             contrato.setTipoServico(TipoServico.AGUA);
-            contrato.setTipoNotificacao(TipoNotificacao.WHATSAPP);
+            contrato.setTipoNotificacao(TipoNotificacao.WTS);
             Cadastro cliente = new Cadastro();
             contrato.setCliente(cliente);
 

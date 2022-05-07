@@ -37,11 +37,11 @@ public class GeradorArquivo {
             sb.append(c.getData().toString()).append(";");
             sb.append(c.getHora().toString()).append(";");
             sb.append(c.getTipoServico().getSigla()).append(";");
-//            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
-//            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
-//            sb.append(valor);
+            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
+            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
+            sb.append(valor).append(";");
 
-            sb.append(c.getTipoNotificacao().getSiglaTipoNotificacao()).append(";");
+            sb.append(c.getTipoNotificacao().name().concat(";"));
 
         }
         System.out.println(sb.toString());
@@ -78,11 +78,11 @@ public class GeradorArquivo {
             sb.append(TextoUtil.removerCaracteresEspeciais(c.getData().toString()));
             sb.append(TextoUtil.removerCaracteresEspeciais(c.getHora().toString()));
             sb.append(c.getTipoServico().getSigla());
-//            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
-//            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
-//            sb.append(valor);
+            String valor = TextoUtil.removerCaracteresEspeciais(c.getValor().toString());
+            valor = TextoUtil.completarZeroEsquerda(Long.valueOf(valor), 8);
+            sb.append(valor);
 
-            sb.append(c.getTipoNotificacao().getSiglaTipoNotificacao());
+            sb.append(c.getTipoNotificacao().name());
 
             System.out.println(sb.toString());
 

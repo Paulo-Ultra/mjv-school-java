@@ -1,4 +1,4 @@
-package com.mjv.agualuz.atracao.service;
+package com.mvj.agualuznotificacao.service;
 
 import com.mjv.agualuz.atracao.model.Cadastro;
 import com.mjv.agualuz.atracao.model.Contrato;

@@ -9,9 +9,22 @@ public enum Pais {
         private Pais (String siglaPais){
             this.siglaPais = siglaPais;
         }
+        
+       
+    public void setSiglaPais(String siglaPais) {
+			this.siglaPais = siglaPais;
+		}
 
-    public String getSiglaPais() {
+
+	public String getSiglaPais() {
         return siglaPais;
     }
-
+    
+    public static Pais getPaisPorSigla(String sigla) {
+    	for(Pais p : Pais.values()) {
+    		if(p.getSiglaPais().equals(sigla))
+    			return p;
+    	}
+    	return null;
+    }
 }

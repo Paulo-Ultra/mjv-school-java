@@ -25,5 +25,13 @@ public enum TipoServico {
     public String getSigla(){
         return name().substring(0,1);
     }
+    
+    public static TipoServico getServicoPorSigla(String sigla) {
+    	for(TipoServico s : TipoServico.values()) {
+    		if(s.getSigla().equals(sigla))
+    			return s;
+    	}
+    	return null;
+    }
 
 }

@@ -5,55 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26b3a3aa-f789-48ea-b57f-8cc16077196b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/Agua-Luz-Atração.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/agua-luz-contratos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/app/SistemaAguaLuzAtracao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/app/SistemaAguaLuzNotificacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/enums/Pais.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/enums/Servico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/enums/TipoNotificacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/enums/TipoServico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/model/Cadastro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/model/Contrato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/model/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/repository/ContratoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/service/GeradorArquivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/service/GeradorMensagem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/service/LeitorArquivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/util/FormatadorUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/util/GeradorLayout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/util/TextoUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/app/SistemaAguaLuzAtracao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/app/SistemaAguaLuzNotificacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/enums/Pais.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/enums/Servico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/enums/TipoNotificacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/enums/TipoServico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/model/Cadastro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/model/Contrato.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/model/Endereco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/repository/ContratoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/service/GeradorArquivo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/service/GeradorMensagem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/service/LeitorArquivo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/util/FormatadorUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/util/GeradorLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/util/TextoUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/app/SistemaAguaLuzNotificacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/enums/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/enums/Pais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/enums/TipoNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/enums/TipoNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/enums/TipoServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/enums/TipoServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/repository/ContratoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/repository/ContratoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/service/GeradorArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/service/GeradorArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/src/main/java/com/mjv/agualuz/atracao/service/LeitorArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/app/SistemaAguaLuzAtracao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/app/SistemaAguaLuzAtracao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/app/SistemaAguaLuzNotificacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/enums/Pais.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/enums/Pais.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/enums/TipoNotificacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/enums/TipoNotificacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/enums/TipoServico.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/enums/TipoServico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/model/Cadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/model/Cadastro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/model/Contrato.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/model/Contrato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/model/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/model/Endereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/repository/ContratoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/repository/ContratoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/service/GeradorArquivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/service/GeradorArquivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/service/GeradorMensagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/service/GeradorMensagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/service/LeitorArquivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/util/FormatadorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/util/FormatadorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/util/TextoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/com/mjv/agualuz/atracao/util/TextoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agua-luz-output/agua-luz-contratos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../agua-luz-output/agua-luz-contratos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agua-luz-output/agua-luz-contratos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../agua-luz-output/agua-luz-contratos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -71,6 +60,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mvj/agualuznotificacao/service" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\55619\OneDrive\Documentos\MJV School - Java\Água-Luz-Notificação\src\main\java\com\mvj\agualuznotificacao\service" />
+      <recent name="C:\Users\55619\OneDrive\Documentos\MJV School - Java\Água-Luz-Notificação\src\main\java\com\mvj\agualuznotificacao\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SistemaAguaLuzNotificacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mvj.agualuznotificacao.app.SistemaAguaLuzNotificacao" />
+      <module name="Água-Luz-Notificação" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mvj.agualuznotificacao.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SistemaAguaLuzNotificacao" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,10 +102,37 @@
       <updated>1651533625196</updated>
       <workItem from="1651533626985" duration="62000" />
       <workItem from="1651534309254" duration="31000" />
+      <workItem from="1651945142993" duration="1055000" />
+      <workItem from="1651947031604" duration="2924000" />
+      <workItem from="1651950160759" duration="9000" />
+      <workItem from="1651950190608" duration="6538000" />
+      <workItem from="1651958980042" duration="49000" />
+      <workItem from="1651959088612" duration="1928000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
