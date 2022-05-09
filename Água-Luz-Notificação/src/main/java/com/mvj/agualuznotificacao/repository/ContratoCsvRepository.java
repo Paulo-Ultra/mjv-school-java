@@ -65,7 +65,7 @@ public class ContratoCsvRepository {
 //        }
 //    }
 //}
-    public Contrato buscar() {
+    public Contrato buscarCsv() {
         Contrato contrato = new Contrato();
         try {
             byte[] bytes = Files.readAllBytes(Paths.get("C:\\Users\\55619\\OneDrive\\Documentos\\MJV School - Java\\agua-luz-output", "agua-luz-contratos.csv"));

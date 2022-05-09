@@ -16,16 +16,16 @@ public class SistemaAguaLuzNotificacao {
 		ContratoTxtRepository rep = new ContratoTxtRepository();
 		ContratoCsvRepository repository = new ContratoCsvRepository();
 		rep.buscar();
-		repository.buscar();
+//		repository.buscarCsv();
 //		repository.lerContratosCsv();
 
 		Contrato contratosVindoTxt = rep.buscar();
-		Contrato contratosVindoCsv = repository.buscar();
+//		Contrato contratosVindoCsv = repository.buscarCsv();
 //		Contrato contratosVindoCsv = (Contrato) repository.lerContratosCsv();
 
 		GeradorMensagem gm = new GeradorMensagem();
 			gm.gerar(contratosVindoTxt);
-			gm.gerar(contratosVindoCsv);
+//			gm.gerar(contratosVindoCsv);
 		}
 //
 //		List<Contrato> contratosVindoTxt= la.lerContratosTxt();
