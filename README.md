@@ -130,6 +130,10 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 - [Data 03/05/22: JUnit tests e Collections(List e Set)](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/java-explorer)
 
 
+## Projeto Final
+
+[Repositório do Projeto Final](https://github.com/BrunoAMieli/mjv-projetoFinal)
+
 <p align="center">
   <a href="https://www.mjvinnovation.com/pt-br" target="_blank">
     <img align="center" width="150" src="https://scontent.flec4-1.fna.fbcdn.net/v/t1.6435-9/42600462_1696603547110502_9220737959181942784_n.png?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HM9hhse_SrAAX-6l8Yz&_nc_ht=scontent.flec4-1.fna&oh=00_AT-L1XnaZPNk0kKu3lM6PVQBJKcEo7PJu3tztz6mmtV0WA&oe=627B3083" style="max-width:100%;">
