@@ -20,28 +20,22 @@ public class PedidoFastApp {
         pedido1.setCliente(cliente);
         pedido1.setId(100212);
         pedido1.setDataHora(LocalDateTime.now());
-        pedido1.setValorTotal(0.0);// vai mudar na hora da conclusao
+        pedido1.setValorTotal(0.0);// Vai mudar na hora da conclusao
 
         ProdutoFakeRepository produtoRepository = new ProdutoFakeRepository();
 
         Produto produtoSelecionado = produtoRepository.buscarPorId(1);
         System.out.println("Produto Selecionado foi "+ produtoSelecionado.getDescricao());
         List<PedidoItem> itens = new ArrayList();
-        //parece loucura
-        //mas aqui precisamos de uma classe histórica
-        //de como os produtos foram vendidos em cada pedido
+        //Aqui precisamos de uma classe histórica de como os produtos foram vendidos em cada pedido
         PedidoItem item1 = new PedidoItem();
         item1.setId(1001);
         item1.setIdProduto(produtoSelecionado.getId());
         item1.setQuantidade(2.0);
-        //recebe o valor do preco de vendo do produto
-        //mas poderia receber outro
-        //por isso do campo fato histórico
+        //Recebe o valor do preco de vendo do produto mas poderia receber outro por isso do campo fato histórico
         item1.setValorUnitario(produtoSelecionado.getPrecoVenda());
-        //observem que isso poderia ser encapulado
-        //na hora da API vai sofrer alguns ajustes
+        //Observem que isso poderia ser encapulado na hora da API vai sofrer alguns ajustes
         item1.setSubTotal(item1.getQuantidade() * item1.getValorUnitario());
-
         //adicionando o item no carrinho
         itens.add(item1);
 
@@ -52,19 +46,13 @@ public class PedidoFastApp {
         item2.setId(1002);
         item2.setIdProduto(produtoSelecionado.getId());
         item2.setQuantidade(2.0);
-        //recebe o valor do preco de vendo do produto
-        //mas poderia receber outro
-        //por isso do campo fato histórico
+        //Recebe o valor do preco de vendo do produto mas poderia receber outro por isso do campo fato histórico
         item2.setValorUnitario(produtoSelecionado.getPrecoVenda());
-        //observem que isso poderia ser encapulado
-        //na hora da API vai sofrer alguns ajustes
+        //Observem que isso poderia ser encapulado na hora da API vai sofrer alguns ajustes
         item2.setSubTotal(item1.getQuantidade() * item1.getValorUnitario());
-
-        //adicionando o item no carrinho
+        //Adicionando o item no carrinho
         itens.add(item2);
-
-        //agora o pedido precisa saber os itens do carrinho
-
+        //Agora o pedido precisa saber os itens do carrinho
         pedido1.setItens(itens);
 
         PedidoService service = new PedidoService();

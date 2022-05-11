@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26b3a3aa-f789-48ea-b57f-8cc16077196b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/cadastro/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/cadastro/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/pedido/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/PedidoCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/pedido/PedidoCarrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/model/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/META-INF/maven/com.mjv/Agua-Luz-Atracao/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Agua-Luz-Atração/target/classes/META-INF/maven/com.mjv/Agua-Luz-Atracao/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../open-banking/target/classes/META-INF/maven/com.mjv/open-banking/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../open-banking/target/classes/META-INF/maven/com.mjv/open-banking/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/app/PedidoFastApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pedido-fast/src/main/java/com/mjv/app/PedidoFastApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvj/agualuznotificacao/app/SistemaAguaLuzNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mvj/agualuznotificacao/app/SistemaAguaLuzNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mvj/agualuznotificacao/repository/ContratoCsvRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mvj/agualuznotificacao/repository/ContratoCsvRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mvj/agualuznotificacao/app/SistemaAguaLuzNotificacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mvj/agualuznotificacao/app/SistemaAguaLuzNotificacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mvj/agualuznotificacao/repository/ContratoCsvRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mvj/agualuznotificacao/repository/ContratoCsvRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +89,9 @@
       <workItem from="1651961555333" duration="15000" />
       <workItem from="1651964288023" duration="1014000" />
       <workItem from="1651965501715" duration="21000" />
+      <workItem from="1652117162876" duration="2710000" />
+      <workItem from="1652200454373" duration="1157000" />
+      <workItem from="1652233348915" duration="41000" />
     </task>
     <servers />
   </component>
