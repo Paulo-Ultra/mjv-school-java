@@ -5,7 +5,7 @@ public class Cliente {
     private Integer id;
     private String cpf;
     private String nome;
-    private String whatsapp;
+    private Long whatsapp;
     private Endereco endereco;
 
     public Integer getId() {
@@ -32,11 +32,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getWhatsapp() {
+    public Long getWhatsapp() {
         return whatsapp;
     }
 
-    public void setWhatsapp(String whatsapp) {
+    public void setWhatsapp(Long whatsapp) {
         this.whatsapp = whatsapp;
     }
 
