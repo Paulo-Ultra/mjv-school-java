@@ -129,6 +129,15 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 
 - [Data 03/05/22: JUnit tests e Collections(List e Set)](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/java-explorer)
 
+- [Data 05/05/22: Água-Luz-Output](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/agua-luz-output)
+
+- [Data 09/05/22: Água-Luz-Notificação](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/%C3%81gua-Luz-Notifica%C3%A7%C3%A3o)
+
+- [Data 12/05/22: Primeiro Projeto Spring](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/PrimeiroProjetoSpring)
+
+- [Data 13/05/22: Conexão com JDBC no banco de dados](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/pedido-fast)
+
+
 
 ## Projeto Final
 
