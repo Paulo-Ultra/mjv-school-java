@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConexaoUtil {
-    public static Connection criarNOvaConexao(){
+    public static Connection criarNovaConexao(){
         String url = "jdbc:postgresql://localhost/mjv_school_db";
         Properties props = new Properties();
         props.setProperty("user", "postgres");

@@ -11,7 +11,7 @@ public class ClienteJDBCRepository {
     private Connection conexao;
 
     public ClienteJDBCRepository(){
-        conexao = ConexaoUtil.criarNOvaConexao();
+        conexao = ConexaoUtil.criarNovaConexao();
     }
 
     public void incluir (Cliente cliente) {
