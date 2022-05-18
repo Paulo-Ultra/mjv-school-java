@@ -105,3 +105,69 @@ mvn clean install
 | PUT    |/locacao | Atualiza a locação|
 | DELETE    |/locacao/{id} | Desativa a locação pelo id|
 
+##### Apresentação
+
+1. Cadastro de cliente
+2. Cadastro de equipamento
+3. Cadastro de item da locação
+4. Inclusão de locação
+
+##### JSON Cadastros
+
+* Cadastrando Cliente
+``` shell 
+{
+  "id": 0,
+  "cpf": "string",
+  "nomeCompleto": "string",
+  "telefone": "string",
+  "endereco": {
+    "id": 0,
+    "rua": "string",
+    "numero": "string",
+    "bairro": "string",
+    "cidade": "string",
+    "estado": "string",
+    "complemento": "string"
+  }
+}
+```
+* Cadastrando Equipamento
+``` shell 
+{
+  "id": 0,
+  "tipoEquipamento": "MTB",
+  "fabricacao": "string",
+  "marca": "string",
+  "grupo": "string",
+  "qtdDisponivel": 0,
+  "valorLocacao": 0
+}
+```
+* Cadastrando Itens da Locação
+``` shell 
+{
+  "id": 0,
+  "equipamentoId": 0,
+  "qtdDiasLocacao": 0,
+  "subtotal": 0
+}
+```
+* Cadastrando a Locação
+``` shell 
+{
+  "id": 0,
+  "dataRetirada": "2022-05-18",
+  "dataDevolucao": "2022-05-18",
+  "clienteId": 0,
+  "valorFinal": 0,
+  "itens": [
+    {
+      "id": 0,
+      "equipamentoId": 0,
+      "qtdDiasLocacao": 0,
+      "subtotal": 0
+    }
+  ]
+}
+```
