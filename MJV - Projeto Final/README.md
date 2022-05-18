@@ -68,11 +68,32 @@ mvn clean install
 ## 🌐 Endpoints
 📄  As urls interativas, construídas através do [Swagger](https://swagger.io/tools/swagger-ui/)
 
-| Método | URL        | Finalidade       |   
+|*_Método_* | *_URL_*       | *Finalidade*       |   
 |--------|------------|------------------|
-| POST   |/clients | Adiciona um novo cliente|
-| GET    |/clients  | Lista todos os clientes|
-| GET    |/clients/{id} | Detalha um cliente pelo id|
-| PUT    |/clients/{id} | Atualiza o cliente pelo id|
-| DELETE    |/clients/{id}/delete | Desativa o cliente pelo id|
+| POST   |/cliente | Adiciona um novo cliente|
+| GET    |/cliente | Lista todos os clientes|
+| GET    |/cliente/{id} | Detalha um cliente pelo id|
+| PUT    |/cliente | Atualiza o cliente|
+| DELETE    |/cliente/{id} | Desativa o cliente pelo id|
+|    | |  |
+| *Método* | *URL*        | *Finalidade*       |
+| POST   |/equipamento | Adiciona um novo equipamento|
+| GET    |/equipamento | Lista todos os equipamentos|
+| GET    |/equipamento/{id} | Detalha um equipamento pelo id|
+| PUT    |/equipamento | Atualiza o equipamento|
+| DELETE    |/equipamento/{id} | Desativa o equipamento pelo id|
+|    | |  |
+| *Método* | *URL*        | *Finalidade*       |
+| POST   |/locacao_item | Adiciona um novo item nas locações|
+| GET    |/locacao_item | Lista todos os itens das locações|
+| GET    |/locacao_item/{id} | Detalha um item da locação pelo id|
+| PUT    |/locacao_item | Atualiza o item da locação|
+| DELETE    |/locacao_item/{id} | Desativa o item da locação pelo id|
+|    | |  |
+| *Método* | *URL*        | *Finalidade*       |
+| POST   |/locacao | Adiciona uma nova locação|
+| GET    |/locacao| Lista todos as locações|
+| GET    |/locacao/{id} | Detalha uma locação pelo id|
+| PUT    |/locacao | Atualiza a locação|
+| DELETE    |/locacao/{id} | Desativa a locação pelo id|
 
