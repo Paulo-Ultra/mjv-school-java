@@ -20,6 +20,4 @@ public class Cliente {
 	@OneToOne(cascade = CascadeType.ALL)
 	private Endereco endereco;
 
-
-
 }

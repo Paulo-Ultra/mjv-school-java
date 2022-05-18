@@ -1,7 +1,6 @@
 package com.mjv.projetofinal.controllers;
 
 import com.mjv.projetofinal.model.Locacao;
-import com.mjv.projetofinal.model.LocacaoItem;
 import com.mjv.projetofinal.repository.LocacaoRepository;
 import com.mjv.projetofinal.services.LocacaoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +19,7 @@ public class LocacaoController {
 
         @PostMapping
         public void calcularLocacao(@RequestBody Locacao locacao) {
-        locacaoService.calcularLocacao(locacao);
+        locacaoService.gravar(locacao);
         }
         @PutMapping
         public void alterar(@RequestBody Locacao locacao) {

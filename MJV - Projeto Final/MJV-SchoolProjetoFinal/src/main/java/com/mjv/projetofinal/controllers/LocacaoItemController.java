@@ -35,7 +35,5 @@ public class LocacaoItemController {
         public LocacaoItem listarId(@PathVariable ("id") Integer id) {
                 return locacaoItemRepository.findById(id).orElse(null);
         }
-
-
 }
 

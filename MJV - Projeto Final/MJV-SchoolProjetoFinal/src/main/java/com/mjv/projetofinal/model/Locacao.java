@@ -3,7 +3,6 @@ package com.mjv.projetofinal.model;
 import java.time.LocalDate;
 import java.util.List;
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data
