@@ -141,7 +141,7 @@ A cada aula conforme o Cronograma, exercícios serão aplicados em sala virtual 
 
 ## Projeto Final
 
-[Repositório do Projeto Final](https://github.com/BrunoAMieli/mjv-projetoFinal)
+- [Repositório do Projeto Final](https://github.com/Paulo-Ultra/mjv-school-java/tree/main/MJV%20-%20Projeto%20Final)
 
 <p align="center">
   <a href="https://www.mjvinnovation.com/pt-br" target="_blank">
