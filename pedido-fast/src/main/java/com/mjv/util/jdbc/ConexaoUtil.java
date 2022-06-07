@@ -10,7 +10,7 @@ public class ConexaoUtil {
         String url = "jdbc:postgresql://localhost/mjv_school_db";
         Properties props = new Properties();
         props.setProperty("user", "postgres");
-        props.setProperty("password", "Paulor12");
+        props.setProperty("password", "postgres");
         try{
             Connection conn = DriverManager.getConnection(url, props);
             System.out.println("Conexão realizada com sucesso");
